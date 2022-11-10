@@ -1,11 +1,39 @@
 {
   "dependencies": {
+    "com.autodesk.fbx": {
+      "version": "4.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.7.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.8.9",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -23,6 +51,27 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.feature.worldbuilding": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.probuilder": "5.0.4",
+        "com.unity.polybrush": "1.1.2",
+        "com.unity.formats.fbx": "4.1.2",
+        "com.unity.terrain-tools": "4.0.3"
+      }
+    },
+    "com.unity.formats.fbx": {
+      "version": "4.1.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.5.2",
+        "com.autodesk.fbx": "4.1.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
@@ -51,7 +100,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.4.1",
+      "version": "1.4.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -69,6 +118,40 @@
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
       "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.polybrush": {
+      "version": "1.1.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.probuilder": {
+      "version": "5.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.4",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -111,7 +194,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -145,6 +228,16 @@
         "com.unity.settings-manager": "1.0.3",
         "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.6.0-pre.2"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.terrain-tools": {
+      "version": "4.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -208,6 +301,28 @@
       },
       "url": "https://packages.unity.com"
     },
+    "jp.keijiro.klak.visualscripting": {
+      "version": "1.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.0.2",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.visualscripting": "1.5.2"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.minis": {
+      "version": "1.0.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "jp.keijiro.rtmidi": "1.0.4",
+        "com.unity.inputsystem": "1.0.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.noiseshader": {
       "version": "2.0.0",
       "depth": 0,
@@ -218,6 +333,13 @@
     "jp.keijiro.pcx": {
       "version": "1.0.1",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.rtmidi": {
+      "version": "1.0.4",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.com"
